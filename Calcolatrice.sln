@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calcolatrice", "Calcolatrice\Calcolatrice.csproj", "{45413E3F-E0EB-480E-A81C-CDB1CA1D70F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operazioni", "Operazioni\Operazioni.csproj", "{596D32FA-5276-4BEB-8FD5-B2D6B44EA84F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45413E3F-E0EB-480E-A81C-CDB1CA1D70F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45413E3F-E0EB-480E-A81C-CDB1CA1D70F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45413E3F-E0EB-480E-A81C-CDB1CA1D70F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45413E3F-E0EB-480E-A81C-CDB1CA1D70F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{596D32FA-5276-4BEB-8FD5-B2D6B44EA84F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{596D32FA-5276-4BEB-8FD5-B2D6B44EA84F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{596D32FA-5276-4BEB-8FD5-B2D6B44EA84F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{596D32FA-5276-4BEB-8FD5-B2D6B44EA84F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33940737-C455-4688-B5CA-270C0C576E25}
+	EndGlobalSection
+EndGlobal
