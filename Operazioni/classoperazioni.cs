@@ -4,44 +4,45 @@ namespace Operazioni
 {
     public class classoperazioni
     {
-        public static double PRIMONUMERO()
+        public static double Numero()
         {
-            Console.Write("inserisci il primo numero");
-            double num1 = double.Parse(Console.ReadLine());
-            return num1;
+            Console.Write("inserisci un numero: ");
+            double n = double.Parse(Console.ReadLine());
+            return n;
         }
-        public static double SECONDONUMERO()
+        public static double? Operazioni(double n1, double n2)
         {
-            Console.Write("inserisci il secondo numero");
-            double num2 = double.Parse(Console.ReadLine());
-            return num2;
-        }
-        public static double SOMMA(double num1, double num2)
-        {
-            double somma = num1 + num2;
-            return somma;
+                double? risultato = null;
+            Console.WriteLine("1 somma, 2 differenza, 3 moltiplicazione e 4divisione.");
 
+            string str = Console.ReadLine();
+            switch (str)
+            {
+                case "1":
+                case "somma":
+                    risultato = n1 + n2;
+                    break;
 
-        }
-        public static double SOTTRAZIONE(double num1, double num2)
-        {
-            double sottra = num1 + num2;
-            return sottra;
+                case "2":
+                case "differenza":
+                    risultato = n1 - n2;
+                    break;
 
+                case "3":
+                case "moltiplicazione":
+                    risultato = n1 * n2;
+                    break;
 
-        }
-        public static double MOLTIPLICAZIONE(double num1, double num2)
-        {
-            double molt = num1 * num2;
-            return molt;
+                case "4":
+                case "divisione":
+                    risultato = n1 / n2;
+                    break;
 
-
-        }
-        public static double DIVISIONE(double num1, double num2)
-        {
-            double div = num1 / num2;
-            return div;
-
+                default:
+                    Console.WriteLine("errore non hai scelto nessuna operazione!");
+                    break;
+            }
+            return risultato;
 
         }
 
